@@ -37,7 +37,7 @@ const jsonData=JSON.stringify(data);
 const url="https://us10.api.mailchimp.com/3.0/lists/d60061ed71";
 const options={
     method: "POST",
-    auth:"Antone1:a16b2c4ebbd6655200533b7302af448f-us10"
+    auth:"Antone1:1632e946a145855ad8fc62ef7f5d66a7-us10"
 };
 
 const request=https.request(url,options,function(response){
@@ -69,7 +69,7 @@ app.listen(process.env.PORT || 3000, function(){
 }); 
 
 //KEY
-//a16b2c4ebbd6655200533b7302af448f-us10
+//1632e946a145855ad8fc62ef7f5d66a7-us10
 
 //List id
 //d60061ed71
